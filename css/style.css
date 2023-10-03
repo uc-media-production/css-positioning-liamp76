@@ -1,0 +1,32 @@
+aside img{
+    width:50px;
+    border-radius: 50%;
+    display: block;
+}
+aside{
+    background: gray;
+    padding: 1rem;
+    border-radius:5px;
+    width: 25%;
+    position: fixed;
+    top: 1rem;
+}
+aside ul li{
+    display:inline-block;
+}
+
+
+body{
+    padding:1rem;
+}
+h1{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+main{
+    padding: 1rem;
+    width: 75%;
+    float: right;
+}
+
