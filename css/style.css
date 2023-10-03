@@ -11,6 +11,11 @@ aside{
     position: fixed;
     top: 1rem;
 }
+.profile {
+    width:50px;
+    border-radius: 50%;
+    display: block;
+}
 aside ul li{
     display:inline-block;
 }
@@ -23,6 +28,10 @@ h1{
     font-size:2rem;
     margin-bottom:1rem;
 }
+h2{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
 
 main{
     padding: 1rem;
@@ -30,3 +39,24 @@ main{
     float: right;
 }
 
+.participant-banner {
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.chat-bubble{
+    background-color:#379faa;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    color: white;
+
+}
+
+p {
+    margin: 1rem 0 auto;
+}
+
+.timestamp{
+
+}
