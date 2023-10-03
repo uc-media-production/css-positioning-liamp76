@@ -20,7 +20,6 @@ aside ul li{
     display:inline-block;
 }
 
-
 body{
     padding:1rem;
 }
@@ -43,6 +42,10 @@ main{
     background: white;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+
 }
 
 .chat-bubble{
@@ -50,7 +53,17 @@ main{
     border-radius: 50px;
     padding: 1rem 2rem;
     color: white;
-
+    margin: 1rem 0 auto;
+    position: relative;
+    width:75%;
+}
+.chat-bubble-gray{
+    background-color:gray;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    color: white;
+    margin: 1rem 0 auto;
+    position: relative;
 }
 
 p {
@@ -58,5 +71,11 @@ p {
 }
 
 .timestamp{
-
+    background: black;
+    padding: 0.5rem;
+    border-radius: 100px;
+    display:inline;
+    position: absolute;
+    right: 3rem;
+    bottom: -1.5rem;
 }
